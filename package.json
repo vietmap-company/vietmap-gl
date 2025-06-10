@@ -1,6 +1,6 @@
 {
   "name": "@vietmap/vietmap-gl-js",
-  "version": "5.0.1",
+  "version": "6.0.0-alpha.1",
   "description": "Vietmap GL JS is a JavaScript library that render interactive maps",
   "publishConfig": {
     "access": "public"
