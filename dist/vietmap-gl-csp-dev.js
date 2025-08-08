@@ -3608,8 +3608,7 @@ var layout_symbol = {
 		type: "array",
 		value: "string",
 		"default": [
-			"Open Sans Regular",
-			"Arial Unicode MS Regular"
+			"Roboto Bold"
 		],
 		requires: [
 			"text-field"

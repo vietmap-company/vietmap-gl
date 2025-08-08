@@ -4,6 +4,9 @@ Import Vietmap WebGL API to your project.
 ## v6.0.0 Update
 From version 6.0.0, Vietmap WebGL API has been updated to use the below style URL:
 
+For more information about tilemap, please checkout our official documentation page:
+[https://maps.vietmap.vn/docs/map-api/tilemap/](https://maps.vietmap.vn/docs/map-api/tilemap/)
+
 VietMap Tile map:
 ```bash
 https://maps.vietmap.vn/maps/styles/tm/style.json?apikey=YOUR_API_KEY_HERE
