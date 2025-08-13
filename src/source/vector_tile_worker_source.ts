@@ -38,7 +38,7 @@ export type LoadVectorData = (params: WorkerTileParameters, abortController: Abo
  * for data formats that can be parsed/converted into an in-memory VectorTile
  * representation. To do so, override its `loadVectorTile` method.
  */
-const key = new Uint8Array([80, 88, 228, 30, 157, 170, 173, 154, 233, 247, 128, 170, 135, 27, 48, 165, 148, 251, 99, 44, 105, 248, 18, 145, 34, 163, 70, 114, 228, 184, 229, 72]);
+// const key = new Uint8Array([80, 88, 228, 30, 157, 170, 173, 154, 233, 247, 128, 170, 135, 27, 48, 165, 148, 251, 99, 44, 105, 248, 18, 145, 34, 163, 70, 114, 228, 184, 229, 72]);
 
 export class VectorTileWorkerSource implements WorkerSource {
     actor: IActor;
@@ -64,9 +64,9 @@ export class VectorTileWorkerSource implements WorkerSource {
     }
     private e(buffer:Uint8Array): Uint8Array{
         
-        for(var i  = 0; i < buffer.byteLength; i++){                
-            buffer[i] = (Number)(buffer[i] ^ key[i % key.byteLength]);
-        }
+        // for(var i  = 0; i < buffer.byteLength; i++){                
+        //     buffer[i] = (Number)(buffer[i] ^ key[i % key.byteLength]);
+        // }
        
         return buffer
     }

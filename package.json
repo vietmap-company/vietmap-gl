@@ -1,23 +1,23 @@
 {
-  "name": "@vietmap/vietmap-gl-js",
-  "version": "6.0.0-pre.1",
-  "description": "Vietmap GL JS is a JavaScript library that render interactive maps",
+  "name": "@mapzone/mapzone-gl-js",
+  "version": "1.0.1",
+  "description": "MapZone GL JS is a JavaScript library that render interactive maps",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vietmap-company"
+    "url": "https://github.com/mapzone-global"
   },
-  "homepage": "https://maps.vietmap.vn",
+  "homepage": "https://map.zone/",
   "keywords": [
-    "vietmap",
-    "vietmap.vn",
-    "vietmap gl",
-    "vietmap gl js"
+    "mapzone",
+    "map.zone",
+    "mapzone gl",
+    "mapzone gl js"
   ],
   "author": {
-    "name": "Vietmap"
+    "name": "MapZone"
   },
   "license": "BSD-3-Clause",
   
